@@ -74,12 +74,13 @@ body {
 
 <div class="content">
   <h2>About Me</h2>
-  <picture class="profile"
-   style="float:left; margin-right:10px; width:80px; height:80px; border:none;"
+  <picture class="profile">
+            <source media="(min-width: 80px)" srcset="images/desktop.jpg" style="float:left; margin-right:10px; width:80px; height:80px; border:none;"
    >
-            <source media="(min-width: 80px)" srcset="images/desktop.jpg">
-            <source media="(min-width: 80px)" srcset="images/tablet.jpg">
-            <img src="images/phone.jpg" alt="That's me!" />
+            <source media="(min-width: 80px)" srcset="images/tablet.jpg" style="float:left; margin-right:10px; width:80px; height:80px; border:none;"
+   >
+            <img src="images/phone.jpg" alt="That's me!" style="float:left; margin-right:10px; width:80px; height:80px; border:none;"
+   />
         </picture> 
 <div class="footer">
   <p>Footer</p>
